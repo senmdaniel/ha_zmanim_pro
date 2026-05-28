@@ -6,10 +6,6 @@ DEFAULT_LANGUAGE
 DOMAIN = "ha_zmanim_pro"
 
 CONF_NAME = "name"
-CONF_LATITUDE = "latitude"
-CONF_LONGITUDE = "longitude"
-CONF_TIMEZONE = "timezone"
-
 DEFAULT_NAME = "Zmanim Pro"
 DEFAULT_UPDATE_INTERVAL = 300
 ```
