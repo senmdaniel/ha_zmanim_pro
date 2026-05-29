@@ -1,4 +1,4 @@
-```python
+```python id="d8v1cs"
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 
