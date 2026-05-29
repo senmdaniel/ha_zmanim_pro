@@ -1,22 +1,15 @@
-from __future__ import annotations
-
 from homeassistant import config_entries
 
-from .const import DOMAIN
 
-
-class ZmanimProConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class ZmanimProConfigFlow(
+    config_entries.ConfigFlow,
+    domain="ha_zmanim_pro",
+):
     VERSION = 1
 
     async def async_step_user(self, user_input=None):
 
-        if user_input is not None:
-            return self.async_create_entry(
-                title="HA Zmanim Pro",
-                data={},
-            )
-
-        return self.async_show_form(
-            step_id="user",
-            data_schema=None,
+        return self.async_create_entry(
+            title="HA Zmanim Pro",
+            data={},
         )
