@@ -1,7 +1,4 @@
-```python id="rdbsnn"
 from __future__ import annotations
-
-import voluptuous as vol
 
 from homeassistant import config_entries
 
@@ -15,12 +12,11 @@ class ZmanimProConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         if user_input is not None:
             return self.async_create_entry(
-                title="Zmanim Pro",
-                data=user_input,
+                title="HA Zmanim Pro",
+                data={},
             )
 
         return self.async_show_form(
             step_id="user",
-            data_schema=vol.Schema({}),
+            data_schema=None,
         )
-```
