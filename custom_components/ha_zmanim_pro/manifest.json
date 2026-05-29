@@ -1,11 +1,10 @@
-```json id="7xdu7o"
 {
   "domain": "ha_zmanim_pro",
   "name": "HA Zmanim Pro",
   "version": "0.1.0",
+  "documentation": "https://github.com/senmdaniel/ha_zmanim_pro",
+  "issue_tracker": "https://github.com/senmdaniel/ha_zmanim_pro/issues",
+  "codeowners": ["@senmdaniel"],
   "config_flow": true,
   "iot_class": "local_polling"
 }
-```
-
-
