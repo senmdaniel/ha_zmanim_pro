@@ -1,4 +1,3 @@
-```python id="mjlwm8"
 from homeassistant import config_entries
 
 
@@ -12,5 +11,4 @@ class ConfigFlow(config_entries.ConfigFlow, domain="ha_zmanim_pro"):
             title="HA Zmanim Pro",
             data={},
         )
-```
 
