@@ -1,1 +1,12 @@
-
+```json id="0jlwmq"
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HA Zmanim Pro",
+        "description": "Setup HA Zmanim Pro"
+      }
+    }
+  }
+}
+```
